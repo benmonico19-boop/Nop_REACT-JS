@@ -1,0 +1,16 @@
+const products = [
+  { id: 1, tensp: "Áo polo", hinh: "1.jpg", mota: "Vải thun", loaijsp: "spkm", gia: 900000 },
+  { id: 2, tensp: "Quần Jogger", hinh: "2.jpg", mota: "Vải thun", loaijsp: "spbc", gia: 900000 },
+  { id: 3, tensp: "Quần Short", hinh: "3.jpg", mota: "Vải thun", loaijsp: "sphot", gia: 900000 },
+  { id: 4, tensp: "Áo khoác ", hinh: "4.jpg", mota: "Vải thun", loaijsp: "spkm", gia: 900000 },
+  { id: 5, tensp: "Áo polo dệt kim", hinh: "5.jpg", mota: "Vải dệt kim", loaijsp: "spbc", gia: 900000 },
+  { id: 6, tensp: "Áo thun", hinh: "6.jpg", mota: "Vải thun.", loaijsp: "sphot", gia: 900000 },
+  { id: 7, tensp: "Áo nỉ", hinh: "7.jpg", mota: "Vải dệt kim", loaijsp: "spkm", gia: 900000 },
+  { id: 8, tensp: "Áo khoác da lộn", hinh: "8.jpg", mota: "Vải da lộn", loaijsp: "spbc", gia: 900000 },
+  { id: 9, tensp: "Áo sơ mi", hinh: "9.jpg", mota: "Vải thun", loaijsp: "sphot", gia: 900000 },
+  { id: 10, tensp: "Áo thun", hinh: "10.jpg", mota: "Vải thun", loaijsp: "spkm", gia: 900000 },
+  { id: 11, tensp: "Vest", hinh: "11.jpg", mota: "Vải thun", loaijsp: "spbc", gia: 900000 },
+  { id: 12, tensp: "Áo sơ mi", hinh: "12.jpg", mota: "Vải thun", loaijsp: "sphot", gia: 900000 }
+];
+
+export default products;
