@@ -30,7 +30,7 @@ export default function Header() {
         <div className="row">
           <nav className="navbar navbar-expand-sm navbar-dark">
             <div className="container-fluid">
-              <a className="navbar-brand" href="javascript:void(0)">
+              <a className="navbar-brand" href="#">
                 MNC
               </a>
               <button

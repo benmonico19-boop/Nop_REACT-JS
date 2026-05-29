@@ -58,6 +58,7 @@ export default function ConnectAPI() {
               <div className="col-md-3 mb-4" key={item.id}>
                 <div className="card h-100 shadow-sm">
                   <img src={`/image/${item.hinh}`} className="card-img-top" alt={item.tensp} />
+                  
                   <div className="card-body text-center">
                     <h5 className="card-title">{item.tensp}</h5>
                     <p className="text-danger fw-bold">{item.gia.toLocaleString()}VNĐ</p>
