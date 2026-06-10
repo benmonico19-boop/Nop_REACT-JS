@@ -14,9 +14,10 @@ import Shoppingcart from "./pages/Shoppingcart";
 
 
 export default function App() {
+  const basename = import.meta.env.MODE === 'production' ? '/Nop_REACT-JS/' : '/';
 
   return (
-    <Router>
+    <Router basename={basename}>
       <Header />
 
       <Routes>
