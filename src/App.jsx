@@ -28,8 +28,6 @@ export default function App() {
         <Route path="/tintuc" element={<Tinntuc />} />
         <Route path="/detail/:id" element={<Detail />} />
         <Route path="/giohang" element={<Shoppingcart />} />
-
-
       </Routes>
 
       <Footer />
