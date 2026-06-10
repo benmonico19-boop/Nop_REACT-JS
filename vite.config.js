@@ -5,4 +5,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: '/Nop_REACT-JS/',
   plugins: [react()],
+  build: {
+    sourcemap: false,
+    minify: 'esbuild',
+  },
 })
