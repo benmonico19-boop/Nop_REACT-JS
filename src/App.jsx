@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -14,15 +14,14 @@ import Shoppingcart from "./pages/Shoppingcart";
 
 
 export default function App() {
-  const basename = import.meta.env.MODE === 'production' ? '/Nop_REACT-JS/' : '/';
-
   return (
-    <Router basename={basename}>
+    <Router>
       <Header />
 
       <Routes>
         <Route exact path="/*" element={<Index />} />
-        <Route exact path="/index" element={<Index />} />
+        <Route exact path="/" element={<Index />} />
+        <Route path="/index" element={<Index />} />
         <Route path="/gioithieu" element={<Tranggioithieu />} />
         <Route path="/lienhe" element={<h1>Contact</h1>} />
         <Route path="/sanpham" element={<SanPham />} />
